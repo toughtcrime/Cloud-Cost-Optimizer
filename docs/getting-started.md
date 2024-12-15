@@ -12,8 +12,8 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/cloud-cost-optimizer.git
-cd cloud-cost-optimizer
+git clone https://github.com/toughtcrime/Cloud-Cost-Optimizer.git
+cd Cloud-Cost-Optimizer
 ```
 
 2. Create and activate virtual environment:

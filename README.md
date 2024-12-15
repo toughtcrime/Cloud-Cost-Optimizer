@@ -1,11 +1,11 @@
-# Cloud Cost Optimizer 🚀
+# Cloud Cost Optimizer 
 
 A powerful tool for analyzing and optimizing cloud resource costs across AWS, Azure, and Google Cloud Platform (GCP). This tool helps identify underutilized resources and provides automated cost-saving recommendations.
 
 ![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## 🌟 Features
+## Features
 
 - **Multi-Cloud Support**: Analyze resources across AWS, Azure, and GCP
 - **Resource Analysis**: 
@@ -18,7 +18,7 @@ A powerful tool for analyzing and optimizing cloud resource costs across AWS, Az
 - **Detailed Reporting**: Generate comprehensive JSON reports
 - **Docker Support**: Easy deployment using containers
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.9 or higher
 - Docker (optional)
@@ -27,14 +27,14 @@ A powerful tool for analyzing and optimizing cloud resource costs across AWS, Az
   - Azure: Subscription ID, Tenant ID, Client ID, and Secret
   - GCP: Service Account Key
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Local Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cloud-cost-optimizer.git
-   cd cloud-cost-optimizer
+   git clone https://github.com/toughtcrime/Cloud-Cost-Optimizer.git
+   cd Cloud-Cost-Optimizer
    ```
 
 2. Create and activate a virtual environment:
@@ -100,7 +100,7 @@ cloud-cost-optimizer/
 └── README.md
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -136,7 +136,7 @@ OPTIMIZATION_INTERVAL_HOURS=6
 - **Time Window**: Analysis based on the last 24 hours of metrics
 - **Storage**: Identifies unused volumes and suboptimal storage configurations
 
-## 💰 How It Works
+## How It Works
 
 ### Resource Analysis
 
@@ -212,7 +212,7 @@ When `AUTO_OPTIMIZE=true`:
 }
 ```
 
-## 📊 Reports
+## Reports
 
 Reports are generated in JSON format and saved in the `reports` directory. Each report includes:
 
@@ -239,7 +239,7 @@ Reports are generated in JSON format and saved in the `reports` directory. Each 
 }
 ```
 
-## 🔄 Continuous Operation
+## Continuous Operation
 
 The tool runs continuously with:
 - Initial analysis upon startup
@@ -274,7 +274,7 @@ sudo systemctl enable cloud-optimizer
 sudo systemctl start cloud-optimizer
 ```
 
-## 🛠️ Development
+## Development
 
 ### Running Tests
 ```bash
@@ -296,11 +296,11 @@ To add support for a new cloud provider:
 3. Add provider-specific configuration in `.env.template`
 4. Update tests and documentation
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Support
+## Support
 
 For support:
 - Open an issue in the GitHub repository
