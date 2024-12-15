@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+
+# Environment files
+.env
+*.env
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Reports and logs
+reports/
+*.log
+optimization_report_*.json
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Documentation
+README.md
+docs/
